@@ -1,7 +1,7 @@
 {
   "ext-sslit": {
-    "filteredProducts": "The list of SSL/TLS certificates available for order. Run the `plesk ext sslit --product -list` command to get all available certificates and their states.",
-    "orderAutoProcessingInterval": "Determines how often the SSL It! extension tries to automatically refresh the state of the placed certificate order.",
+    "filteredProducts": "12345The list of SSL/TLS certificates available for order. Run the `plesk ext sslit --product -list` command to get all available certificates and their states.",
+    "orderAutoProcessingInterval": "123Determines how often the SSL It! extension tries to automatically refresh the state of the placed certificate order.",
     "check-availability-max-attempts": "The maximum number of attempts to check if a domain is accessible via HTTP. The check is required for securing the domains and subdomains that are created with the \"Secure the domain with Let's Encrypt\" option enabled.",
     "check-availability-delay": "The wait time in seconds between attempts to check if a domain is accessible via HTTP. The check is required for securing the domains and subdomains that are created with the \"Secure the domain with Let's Encrypt\" option enabled.",
     "check-availability-timeout": "The timeout in seconds for checking if a domain is accessible via HTTP. If within the time defined by check-availability-timeout, no response code is received, the domain is considered to be unavailable. The check is required for securing the domains and subdomains that are created with the \"Secure the domain with Let's Encrypt\" option enabled.",
@@ -12,7 +12,7 @@
     "timeout": "The time limit (in seconds) for sending requests to issue an SSL/TLS certificate to the CA server. Helps avoid long wait times if there are issues with the connection or the CA server itself. Accepts the following values: null (default HTTP timeout values), positive integers (we recommend 30 seconds), and 0 (no timeout, not recommended)."
   },
   "ext-letsencrypt": {
-    "key-algorithm": "OpenSSL key type. Can be RSA or ECDSA",
+    "key-algorithm": "123OpenSSL key type. Can be RSA or ECDSA",
     "ecdsa-curve-name": "Curve name used in Elliptic curve cryptography (ECC) for public/private key operations. The setting accepts the following values: prime256v1 (NIST P-256) and secp384r1 (NIST P-384)."
   }
 }
